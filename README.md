@@ -1,6 +1,6 @@
 # test-re-frame-front
 
-A [re-frame](https://github.com/Day8/re-frame) for educational purposes
+A [re-frame](https://github.com/Day8/re-frame) for educational purposes 
 
 ## Development Mode
 
