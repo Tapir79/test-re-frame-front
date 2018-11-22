@@ -7,7 +7,6 @@
    [test-re-frame-front.config :as config]
    ))
 
-
 (defn dev-setup []
   (when config/debug?
     (enable-console-print!)

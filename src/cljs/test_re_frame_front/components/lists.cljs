@@ -3,8 +3,7 @@
 (defn bullet-list [itemkey items]
   [:ul
    (for [item items]
-     ^{:key item} [:li (itemkey item)])]
-  )
+     ^{:key item} [:li (itemkey item)])])
 
 
 (defn lister [items]
