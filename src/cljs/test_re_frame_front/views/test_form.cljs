@@ -20,4 +20,4 @@
    [:br]
    [inputs/input-field "from" #(re-frame/dispatch [::events/add-to-new-test [[:message] (.-value (.-target %))]])]
    [:br]
-   [buttons/default "Send a message" #(re-frame/dispatch [::events/save-test])]])
+   [buttons/default-button "Send a message" #(re-frame/dispatch [::events/save-test])]])
